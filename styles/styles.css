@@ -17,11 +17,12 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-p {
-    padding: 0;
-}
+p {padding: 0;}
+
 main {
-    width: 100%; 
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px; 
 }
 
 aside {
@@ -33,8 +34,15 @@ aside {
     color: #333;          
 }
 
+aside img {
+    max-width: 200px;   
+    height: auto;       
+    display: block;      
+    margin-bottom: 10px; 
+}
+
 main img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 footer {
