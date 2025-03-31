@@ -5,7 +5,6 @@
     --accent2-color: #ff8c00;
 }
 
-/* The body element remains unchanged */
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -13,7 +12,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--primary-color); /* Added variable reference from ale */
+    color: var(--primary-color);
 }
 
 h1 {
@@ -21,20 +20,18 @@ h1 {
 }
 
 p {
-    color: var(--secondary-color); /* This was consistent, no changes */
+    color: var(--secondary-color);
 }
 
-/* Header Grid Layout */
 header {
     display: grid;
-    grid-template-columns: auto 1fr; /* Adjust as needed */
+    grid-template-columns: auto 1fr;
     align-items: center;
     padding: 10px;
-    background-color: #eee; /* Added background color from ale */
-    border-bottom: 2px solid #ccc; /* Added border from ale */
+    background-color: #eee;
+    border-bottom: 2px solid #ccc;
 }
 
-/* Updated header nav styling */
 header nav {
     display: flex;
     justify-content: flex-end;
@@ -52,57 +49,54 @@ header nav a:hover {
     background-color: #ddd;
 }
 
-/* Hero section styles */
 .hero img {
     display: block;
     width: 100%;
-    height: auto; /* Unchanged */
+    height: auto;
 }
 
 .hero {
-    position: relative; /* Unchanged */
+    position: relative;
 }
 
 .hero h1 {
-    font-size: 52px; /* Kept orig style */
-    font-weight: bold; /* Kept orig style */
+    font-size: 52px;
+    font-weight: bold;
     position: absolute;
     top: 20px; 
-    left: 300px; /* Orig positioning retained */
-    color: #b2e9f8; /* Orig color retained */
+    left: 300px;
+    color: #b2e9f8;
     padding: 10px;
 }
 
 .hero article {
     position: absolute;
     bottom: 20px; 
-    left: 100px; 
-    background-color: rgba(255, 255, 255, 0.8); /* Unchanged */
+    left: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 15px;
-    width: 80%; /* Updated width to match ale */
+    width: 80%;
 }
 
 .hero article img {
     float: right;
     margin-left: 15px;
-    width: 150px; /* Changed width to match ale */
-    border: 1px solid #ccc; /* Added border from ale */
+    width: 150px;
+    border: 1px solid #ccc;
 }
 
-/* Social Links Styles */
 .sociallinks a {
-    text-decoration: none; /* Unchanged */
+    text-decoration: none;
 }
 
 .sociallinks img {
-    width: 30px; /* Adjusted from 10px to 30px */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Keeps consistent spacing between icons */
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
 }
 
-/* Updated History Section Styles */
 .history {
-    display: block; /* Change display to block */
+    display: block;
     padding: 20px;
     background-color: #f9f9f9;
 }
@@ -114,14 +108,14 @@ header nav a:hover {
 
 .history-content {
     display: flex;
-    flex-wrap: wrap; /* Allow text to wrap */
-    justify-content: center; /* Center horizontally */
-    align-items: center;  /* Center vertically */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
 .history-text {
-    flex: 1 1 300px; /* Distribute space, min width */
+    flex: 1 1 300px;
     padding: 15px;
     border: 1px solid #ddd;
 }
@@ -132,9 +126,9 @@ header nav a:hover {
 }
 
 .history-image {
-    flex: 0 0 auto; /* Don't grow or shrink */
-    width: 200px; /* Set image width */
-    order: 1; /* Place image in the middle */
+    flex: 0 0 auto;
+    width: 200px;
+    order: 1;
 }
 
 .history-image img {
@@ -143,7 +137,6 @@ header nav a:hover {
     display: block;
 }
 
-/* Adventures Section Styles (unchanged from ale) */
 .adventures {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -178,11 +171,10 @@ header nav a:hover {
     text-align: center;
 }
 
-/* Footer Section Styles (updated) */
 footer {
     display: flex;
-    justify-content: flex-end; /* Align social icons to the right */
-    align-items: center; /* Vertical alignment */
+    justify-content: flex-end;
+    align-items: center;
     padding: 10px 20px;
     background-color: #eee;
     border-top: 2px solid #ccc;
