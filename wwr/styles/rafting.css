@@ -191,3 +191,19 @@ footer p {
     text-align: center;
     flex: 1;
 }
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+iframe {
+    width: 90%; /* Adjusts the width to fit within most screens */
+    max-width: 800px; /* Sets a maximum width for larger screens */
+    height: 400px;
+}
+iframe:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+    transition: transform 0.3s ease-in-out;
+}
