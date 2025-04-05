@@ -214,3 +214,69 @@ footer p {
     width: 600px;
     height: 450px;
 }
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form .radio-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .radio-group input {
+    margin-right: 5px;
+}
+
+.contact-form .checkbox-group {
+    margin-bottom: 15px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}

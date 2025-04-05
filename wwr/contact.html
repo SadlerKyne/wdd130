@@ -45,6 +45,37 @@
                 <p>stacys_mom@gotitgoingon.com</p>
             </article>
         </div>
+        <section class="contact-section">
+            <form class="contact-form" action="#" method="post">
+                <h2>Contact Us</h2>
+        
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <p>Purpose of Message:</p>
+                <div class="radio-group">
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question" required>
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="website" name="purpose" value="Website Suggestion" required>
+                    <label for="website">Website Suggestion</label>
+                </div>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </section>
         
         <section class="adventures">
             <h2>Adventure Awaits You!</h2>
