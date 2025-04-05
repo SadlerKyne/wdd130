@@ -199,20 +199,18 @@ footer p {
     padding: 20px;
 }
 
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
 .map-container iframe {
     border: 0;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 600px;
     height: 450px;
-}
-
-iframe {
-    width: 90%;
-    max-width: 800px;
-    height: 400px;
-}
-iframe:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s ease-in-out;
 }
