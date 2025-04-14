@@ -137,40 +137,6 @@ header nav a:hover {
     display: block;
 }
 
-.adventures {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 10px;
-    padding: 20px;
-    background-color: #f0f0f0;
-}
-
-.adventures h2 {
-    grid-column: 1 / -1;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.adventures figure {
-    margin: 0;
-    padding: 10px;
-    border: 1px solid #eee;
-}
-
-.adventures figure img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-bottom: 1px solid #ddd;
-}
-
-.adventures figure figcaption {
-    font-size: 0.8em;
-    color: #555;
-    padding-top: 5px;
-    text-align: center;
-}
-
 footer {
     display: flex;
     justify-content: flex-end;
@@ -199,14 +165,6 @@ footer p {
     padding: 20px;
 }
 
-
-.map-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
 .map-container iframe {
     border: 0;
     border-radius: 10px;
@@ -214,6 +172,7 @@ footer p {
     width: 600px;
     height: 450px;
 }
+
 .contact-section {
     display: flex;
     justify-content: center;
@@ -279,4 +238,28 @@ footer p {
 
 .contact-form button:hover {
     background-color: #45a049;
+}
+
+.employees {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.employees figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.employees figure img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
