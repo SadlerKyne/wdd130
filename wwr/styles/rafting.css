@@ -217,7 +217,7 @@ footer nav.sociallinks {
     width: 100%;
     padding: 12px 20px; 
     background-color: #ff8c00; 
-    color: #000000; 
+    color: #ffffff; 
     border: 2px solid #a05a00;
     border-radius: 5px;
     cursor: pointer;
@@ -227,7 +227,7 @@ footer nav.sociallinks {
 }
 .contact-form button:hover {
     background-color: #e67e00; 
-    color: #000000;
+    color: #ffffff;
 }
 
 
@@ -411,10 +411,12 @@ position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow
     border-radius: 8px; 
 }
 .home-cta .cta-image {
-    flex: 1 1 350px; 
-    max-width: 100%; 
+    flex: 0 1 350px;
+    width: 100%;
+    max-width: 400px;
     height: auto;
     border-radius: 8px;
+    align-self: center;
 }
 .home-cta .cta-content {
     flex: 1 1 400px; 
