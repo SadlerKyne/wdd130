@@ -45,6 +45,12 @@ header {
     border-bottom: 2px solid #ccc;
 }
 
+header img {
+    width: 70px; /* <<< ADJUST THIS VALUE (e.g., 150px, 120px, 100px) */
+    height: auto; /* Maintain aspect ratio */
+    display: block; 
+}
+
 header nav {
     display: flex;
     justify-content: flex-end;
@@ -563,36 +569,51 @@ position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow
     padding: 40px 20px; 
     background-color: #f9f9f9;
 }
+
 .history h2 {
     text-align: center;
     margin-bottom: 30px; 
     font-size: 2em;
 }
+
 .history-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start; 
+    display: grid; 
+    grid-template-columns: 1fr auto 1fr; 
     gap: 30px; 
-    max-width: 1000px; 
+    align-items: start; 
+    max-width: 1100px; 
     margin: 0 auto; 
 }
+
 .history-text {
-    flex: 1 1 400px; 
     padding: 20px;
     border: 1px solid #eee; 
     background-color: #fff; 
     border-radius: 5px;
 }
+
 .history-text p {
     line-height: 1.7; 
     margin-bottom: 1em; 
 }
+
+.history-center-image {
+    display: block; 
+    max-width: 150px; 
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    margin: 0 auto; 
+    align-self: center; 
+}
+
 .history-image {
     flex: 0 0 250px; 
     order: -1; 
     text-align: center; 
 }
+
 .history-image img {
     width: 100%;
     height: auto;
