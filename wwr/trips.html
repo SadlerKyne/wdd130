@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>Contact Us - Kyne River Tours</title>
-    <meta name="description" content="White Water Rapids Contact us page">
+    <title>Our Trips - Kyne River Tours</title> 
+    
+    <meta name="description" content=""> 
+    
     <meta name="author" content="Sadler N Kyne">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +15,9 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.jpg" alt="Kyne River Tours logo" width="200">
+        
+        <img src="images/logo.jpg" alt="Kyne River Tours logo" width="200"> 
+        
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -21,76 +25,153 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+
     <main>
-        <div class="hero">
-            <img src="images/hero1.jpeg" alt="Hero on the white rapids">
-            <h1>Kyne River Tours</h1>
-            <div class="map-container">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3281.474990892126!2d135.4296384!3d34.6679596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e92af05f8a95%3A0x12c79d201e857c0d!2sMario%20Kart%3A%20Koopa&#39;s%20Challenge!5e0!3m2!1sen!2sus!4v1743878321520!5m2!1sen!2sus"
-                    width="600"
-                    height="450"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-            
-            <article>
-                <h2>Address</h2>
-                <p>Sotokanda, Chiyoda City, Tokyo 101-0021, Japan</p>
-                <h2>Phone Number</h2>
-                <p>210-867-5309</p>
-                <h2>Email</h2>
-                <p>stacys_mom@gotitgoingon.com</p>
-            </article>
-        </div>
-        <section class="contact-section">
-            <form class="contact-form" action="#" method="post">
-                <h2>Contact Us</h2>
-        
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-        
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-        
-                <p>Purpose of Message:</p>
-                <div class="radio-group">
-                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
-                    <label for="general">General Inquiry</label>
-                    <input type="radio" id="reservation" name="purpose" value="Reservation Question" required>
-                    <label for="reservation">Reservation Question</label>
-                    <input type="radio" id="website" name="purpose" value="Website Suggestion" required>
-                    <label for="website">Website Suggestion</label>
+        <section class="hero"> 
+            <img src="images/hero1.jpeg" alt="Hero on the white rapids" class="hero-image"> 
+            <div class="hero-content"> 
+                <h1>Kyne River Tours</h1> 
                 </div>
-        
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-        
-                <div class="checkbox-group">
-                    <input type="checkbox" id="newsletter" name="newsletter">
-                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-                </div>
-        
-                <button type="submit">Something other than Submit</button>
-            </form>
         </section>
-        
-        <section class="employees">
-            <figure>
-                <img src="images/employee1.jpg" alt="Happy Employee">
-                <figcaption>Happy to be here</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee2.jpg" alt="Happy Employee">
-                <figcaption>So Much Fun</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee3.jpg" alt="Employee">
-                <figcaption>Love Working Here</figcaption>
-            </figure>
+
+
+        <section class="trips-cta-section">
+            <a href="contact.html" class="cta-button-alt">Book Your Trip or Ask Questions</a>
         </section>
+
+        <section class="trip-cards-container">
+            <h2>Available Trips</h2> 
+            <div class="trip-cards">
+                
+                <div class="trip-card">
+                    
+                    <img src="images/river1.jpg" alt=""> 
+                    
+                    <h3>RioRio</h3>
+                    <p>A gentle float down the rio rio, This is a great trip for anyone wanting to get experience in rafting and learn the ropes.</p>
+                    <ul>
+                        <li><strong>Duration:</strong> 3 - 4 Hours</li>
+                        <li><strong>Difficulty:</strong> Beginner</li>
+                        <li><strong>Price:</strong> $300</li>
+                        <li><strong>Group Size:</strong> 6</li> 
+                    </ul>
+                </div> 
+
+                <div class="trip-card">
+                    
+                    <img src="images/river3.jpg" alt="">
+                    
+                    <h3>RattleSnakes Back</h3> 
+                    <p>This 2 day adventure down the rattlesnakes back is not for the faint of heart but is a trip that you will not forget. We reccomend this trip to those adventurers who have been on a few trips and know the ins and outs.</p>
+                    <ul>
+                        <li><strong>Duration:</strong> 2 days</li>
+                        <li><strong>Difficulty:</strong> Advanced</li>
+                        <li><strong>Price:</strong> $800</li>
+                        <li><strong>Group Size:</strong> 6 - 18</li> 
+                    </ul>
+                </div> 
+
+                <div class="trip-card">
+                    
+                    <img src="images/river2.jpg" alt="">
+                    
+                    <h3>Mickies Hottub</h3>
+                    <p>Mickies Hottub is a build your own adventure this can be as long or as short as you want. You will have to show your strength to the guide before being allowed to take on this river. Anyone wanting to do this trip must have completed an Advanced trip with the guides prior.</p>
+                    <ul>
+                        <li><strong>Duration:</strong> 5 Days / 4 Nights</li> 
+                        <li><strong>Difficulty:</strong> Expert</li>
+                        <li><strong>Price:</strong> $1400</li>
+                        <li><strong>Group Size:</strong> 6 - 18</li> 
+                    </ul>
+                </div> 
+                
+                </div> 
+        </section> 
+        
+        <section class="trips-summary-table">
+            <h2>Trips Summary</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Trip Name</th>
+                            <th>Duration</th>
+                            <th>Difficulty</th>
+                            <th>Group Size</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>RioRio</td>
+                            
+                            <td>Full Day</td> 
+                            
+                            <td>Beginner</td>
+                            <td>6</td>
+                            <td>$300</td>
+                        </tr>
+                        <tr>
+                            <td>RattleSnakes Back</td> 
+                            <td>2 days</td>
+                            <td>Advanced</td>
+                            <td>6 - 18</td>
+                            <td>$800</td>
+                        </tr>
+                        <tr>
+                            <td>Mickies Hottub</td>
+                            <td>5 Days / 4 Nights</td>
+                            <td>Expert</td>
+                            <td>6 - 18</td>
+                            <td>$1400</td>
+                        </tr>
+                        <tr>
+                            <td>Hell's Revenge Rapids</td>
+                            <td>Full Day</td>
+                            <td>Advanced</td>
+                            <td>4 - 12</td>
+                            <td>$450</td>
+                        </tr>
+                        <tr>
+                            <td>Fins N Things Float</td>
+                            <td>Half Day (AM or PM)</td>
+                            <td>Intermediate</td>
+                            <td>6 - 16</td>
+                            <td>$350</td>
+                        </tr>
+                        <tr>
+                            <td>Poison Spider Passage</td>
+                            <td>Full Day + Overnight Option</td>
+                            <td>Advanced / Expert</td>
+                            <td>4 - 8</td>
+                            <td>$600 / $950</td>
+                        </tr>
+                        <tr>
+                            <td>Golden Spike Expedition</td>
+                            <td>3 Days / 2 Nights</td>
+                            <td>Advanced</td>
+                            <td>6 - 12</td>
+                            <td>$1100</td>
+                        </tr>
+                        <tr>
+                            <td>Top of the World Tour</td>
+                            <td>Half Day</td>
+                            <td>Beginner / Intermediate</td>
+                            <td>8 - 20</td>
+                            <td>$320</td>
+                        </tr>
+                        <tr>
+                            <td>Steel Bender Challenge</td>
+                            <td>Full Day</td>
+                            <td>Expert</td>
+                            <td>4 - 10</td>
+                            <td>$550</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> 
+        </section> 
+        
     </main>
     <footer>
         <p>©️ 2025 Kyne River Tours. All rights reserved. Sadler N Kyne</p>
@@ -108,3 +189,5 @@
     </footer>
 </body>
 </html>
+
+

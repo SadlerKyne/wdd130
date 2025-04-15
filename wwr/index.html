@@ -3,9 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/rafting.css">
-    <title>Contact Us - Kyne River Tours</title>
-    <meta name="description" content="White Water Rapids Contact us page">
+    <link rel="stylesheet" href="styles/rafting.css"> 
+    <title>Kyne River Tours - White Water Rafting Adventures near Green River, Utah</title> 
+    
+    <meta name="description" content=""> 
+    
     <meta name="author" content="Sadler N Kyne">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +15,7 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.jpg" alt="Kyne River Tours logo" width="200">
+        <img src="images/logo.jpg" alt="Kyne River Tours logo" width="200"> 
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -21,76 +23,81 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+
     <main>
-        <div class="hero">
-            <img src="images/hero1.jpeg" alt="Hero on the white rapids">
-            <h1>Kyne River Tours</h1>
-            <div class="map-container">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3281.474990892126!2d135.4296384!3d34.6679596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e92af05f8a95%3A0x12c79d201e857c0d!2sMario%20Kart%3A%20Koopa&#39;s%20Challenge!5e0!3m2!1sen!2sus!4v1743878321520!5m2!1sen!2sus"
-                    width="600"
-                    height="450"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+        <section class="hero"> 
+            <img src="images/hero1.jpeg" alt="Hero on the white rapids" class="hero-image"> 
+            <div class="hero-content"> 
+                <h1>Kyne River Tours</h1> 
+
+                
+                <a href="trips.html" class="cta-button hero-cta-button">Discover Our Trips</a>
             </div>
-            
-            <article>
-                <h2>Address</h2>
-                <p>Sotokanda, Chiyoda City, Tokyo 101-0021, Japan</p>
-                <h2>Phone Number</h2>
-                <p>210-867-5309</p>
-                <h2>Email</h2>
-                <p>stacys_mom@gotitgoingon.com</p>
-            </article>
-        </div>
-        <section class="contact-section">
-            <form class="contact-form" action="#" method="post">
-                <h2>Contact Us</h2>
-        
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-        
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-        
-                <p>Purpose of Message:</p>
-                <div class="radio-group">
-                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
-                    <label for="general">General Inquiry</label>
-                    <input type="radio" id="reservation" name="purpose" value="Reservation Question" required>
-                    <label for="reservation">Reservation Question</label>
-                    <input type="radio" id="website" name="purpose" value="Website Suggestion" required>
-                    <label for="website">Website Suggestion</label>
+        </section>
+
+        <section class="home-grid-container">
+            <h2>Your Adventure Starts Here</h2>
+            <div class="home-grid"> 
+                <div class="grid-item purpose">
+                    <img src="images/team.jpg" alt="">
+                    <h3>Our Mission</h3>
+                    <p></p>
                 </div>
-        
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-        
-                <div class="checkbox-group">
-                    <input type="checkbox" id="newsletter" name="newsletter">
-                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                <div class="grid-item offerings">
+                    <img src="images/adventure.jpg" alt="">
+                    <h3>Adventure Types</h3>
+                    <p></p>
                 </div>
-        
-                <button type="submit">Something other than Submit</button>
+            </div>
+        </section>
+
+        <section class="featured-trips">
+            <h2>Popular Adventures</h2>
+            <div class="featured-trip-cards"> <div class="featured-trip-card">
+                    <img src="images/river1.jpg" alt="">
+                    <h4>RioRio (Beginner)</h4>
+                    <p>A gentle float, perfect for beginners...</p> 
+                    <a href="trips.html#rioriocard" class="learn-more-link">Learn More</a> 
+                    </div>
+                <div class="featured-trip-card">
+                    <img src="images/river3.jpg" alt="">
+                    <h4>RattleSnakes Back (Advanced)</h4>
+                    <p>An unforgettable 2-day challenge...</p> 
+                    <a href="trips.html#rattlesnakecard" class="learn-more-link">Learn More</a> 
+                </div>
+                <div class="featured-trip-card">
+                    <img src="images/river2.jpg" alt="">
+                    <h4>Mickies Hottub (Expert)</h4>
+                    <p>A customizable expedition for experts...</p> 
+                    <a href="trips.html#mickiescard" class="learn-more-link">Learn More</a> 
+                </div>
+            </div>
+            <div class="all-trips-link">
+                <a href="trips.html" class="cta-button-alt">View All Trips</a>
+            </div>
+        </section>
+
+        <section class="newsletter-signup">
+            <h2>Stay Connected!</h2>
+            <p></p>
+            <form action="#" method="post"> 
+                <label for="newsletter_name">Name:</label>
+                <input type="text" id="newsletter_name" name="name" required placeholder="Your Name">
+                <label for="newsletter_email">Email:</label>
+                <input type="email" id="newsletter_email" name="email" required placeholder="Your Email Address">
+                <button type="submit">Subscribe</button>
             </form>
         </section>
-        
-        <section class="employees">
-            <figure>
-                <img src="images/employee1.jpg" alt="Happy Employee">
-                <figcaption>Happy to be here</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee2.jpg" alt="Happy Employee">
-                <figcaption>So Much Fun</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee3.jpg" alt="Employee">
-                <figcaption>Love Working Here</figcaption>
-            </figure>
+
+        <section class="home-cta">
+            <img src="images/cta-happy-rafters.jpg" alt="" class="cta-image">
+            <div class="cta-content">
+                <h2>Ready to Make a Splash?</h2>
+                <p></p>
+                <a href="trips.html" class="cta-button">Explore Trips & Book Now</a>
+            </div>
         </section>
+
     </main>
     <footer>
         <p>©️ 2025 Kyne River Tours. All rights reserved. Sadler N Kyne</p>
