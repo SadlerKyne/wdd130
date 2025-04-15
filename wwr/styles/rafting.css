@@ -771,3 +771,9 @@ position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow
     color: var(--primary-color);
     font-size: 0.95em; 
 }
+.employees h1 {
+    width: 100%; /* Makes the heading span the full container width */
+    text-align: center; /* Centers the text inside the heading */
+    margin-bottom: 20px; /* Adds some space below the heading before the figures */
+    font-size: 2.2em; /* Optional: Adjust size if needed */
+}
