@@ -216,9 +216,9 @@ footer nav.sociallinks {
 .contact-form button { 
     width: 100%;
     padding: 12px 20px; 
-    background-color: #4CAF50; 
-    color: #fff; 
-    border: none;
+    background-color: #ff8c00; 
+    color: #000000; 
+    border: 2px solid #a05a00;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1.1em; 
@@ -226,7 +226,8 @@ footer nav.sociallinks {
     transition: background-color 0.3s ease;
 }
 .contact-form button:hover {
-    background-color: #45a049; 
+    background-color: #e67e00; 
+    color: #000000;
 }
 
 
